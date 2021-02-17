@@ -81,17 +81,17 @@ Tools
 +-------+-------------+------------------------------------------------------+
 | Icon  | Tool        | Description                                          |
 +=======+=============+======================================================+
-| |P|   | point       | Click on a point in the image to draw a point.       |
+| |P|_  | point       | Click on a point in the image to draw a point.       |
 |       |             | You can have multiple points drawn on the image      |
 |       |             | simultaneously. Selecting “Analyze>>Measure”         |
 |       |             | will measure all points drawn on the image.          |
 +-------+-------------+------------------------------------------------------+
-| |L|   | line        | Click and drag between two points to draw a          |
+| |L|_  | line        | Click and drag between two points to draw a          |
 |       |             | line. You can only have one line drawn on the        |
 |       |             | image at a time. Select “Edit>>Adjust>>Line Width”   |
 |       |             | to change the width of the line.                     |
 +-------+-------------+------------------------------------------------------+
-| |R|   | rectangle   | Click and drag between two points to draw a          |
+| |R|_  | rectangle   | Click and drag between two points to draw a          |
 |       |             | rectangle. You can not use “Analyze>>Measure” on     |
 |       |             | rectangles. Rectangles are primarily used to crop    |
 |       |             | images.                                              |
@@ -155,8 +155,6 @@ Menu Commands
 	   * - Rotate
 	     - Disabled.
 
-.. [1] A rectangle must be drawn on the canvas for this to work.
-
 	.. list-table:: Analyze Menu Commands
 	   :widths: auto
 	   :header-rows: 1
@@ -204,8 +202,6 @@ Plot Commands
 	   * - Subtract Baseline
 	     - Subtracts the baseline from the data.
 
-.. [2] Table currently can't be scrolled through.
-
 	.. list-table:: Fit Menu Commands
 	   :widths: auto
 	   :header-rows: 1
@@ -222,3 +218,6 @@ License
 MIT |copy| 2021, Joshua Olson
 
 .. |copy| unicode:: U+000A9 .. COPYRIGHT SIGN
+
+.. [1] A rectangle must be drawn on the canvas for this to work.
+.. [2] Table currently can't be scrolled through.
