@@ -61,19 +61,22 @@ Tools
 -----
 
 .. |P| image:: icon-point.png
-   :height: 100px
-   :width: 100px
+   :height: 100
+   :width: 100
    :align: center
+   :target: icon-point.png
 
 .. |L| image:: icon-line.png
-   :height: 100px
-   :width: 100px
+   :height: 100
+   :width: 100
    :align: center
+   :target: icon-line.png
 
 .. |R| image:: icon-rect.png
-   :height: 100px
-   :width: 100px
+   :height: 100
+   :width: 100
    :align: center
+   :target: icon-rect.png
 
 +-------+-------------+------------------------------------------------------+
 | Icon  | Tool        | Description                                          |
@@ -146,7 +149,7 @@ Menu Commands
 	   * - Command
 	     - Operation
 	   * - Crop
-	     - Crops the image to a rectangle drawn on the canvas. #
+	     - Crops the image to a rectangle drawn on the canvas. [1]_
 	   * - Set Scale
 	     - Sets the scale of the image to a certain measurement and unit defined by the user. The user can draw a line on a section of the image and set the scale of the image using that line.
 	   * - Rotate
@@ -193,7 +196,7 @@ Plot Commands
 	   * - Export As...
 	     - Export the data as a CSV or text file.
 	   * - Table
-	     - Displays the data in a table. #
+	     - Displays the data in a table. [2]_
 	   * - Add Baseline
 	     - Generates a baseline from the data.
 	   * - Clear Baseline
