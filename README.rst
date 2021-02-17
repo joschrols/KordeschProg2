@@ -60,42 +60,42 @@ The following details how to use each tool and command in the application.
 Tools
 -----
 
-.. |P| image:: icon-point.png
+.. |icon-point.png| image:: icon-point.png
    :height: 100
    :width: 100
    :align: center
    :target: icon-point.png
 
-.. |L| image:: icon-line.png
+.. |icon-line.png| image:: icon-line.png
    :height: 100
    :width: 100
    :align: center
    :target: icon-line.png
 
-.. |R| image:: icon-rect.png
+.. |icon-rect.png| image:: icon-rect.png
    :height: 100
    :width: 100
    :align: center
    :target: icon-rect.png
 
-+-------+-------------+------------------------------------------------------+
-| Icon  | Tool        | Description                                          |
-+=======+=============+======================================================+
-| |P|_  | point       | Click on a point in the image to draw a point.       |
-|       |             | You can have multiple points drawn on the image      |
-|       |             | simultaneously. Selecting “Analyze>>Measure”         |
-|       |             | will measure all points drawn on the image.          |
-+-------+-------------+------------------------------------------------------+
-| |L|_  | line        | Click and drag between two points to draw a          |
-|       |             | line. You can only have one line drawn on the        |
-|       |             | image at a time. Select “Edit>>Adjust>>Line Width”   |
-|       |             | to change the width of the line.                     |
-+-------+-------------+------------------------------------------------------+
-| |R|_  | rectangle   | Click and drag between two points to draw a          |
-|       |             | rectangle. You can not use “Analyze>>Measure” on     |
-|       |             | rectangles. Rectangles are primarily used to crop    |
-|       |             | images.                                              |
-+-------+-------------+------------------------------------------------------+
++----------------------------+-------------+------------------------------------------------------+
+| Icon                       | Tool        | Description                                          |
++============================+=============+======================================================+
+| |icon-point.png|           | point       | Click on a point in the image to draw a point.       |
+|                            |             | You can have multiple points drawn on the image      |
+|                            |             | simultaneously. Selecting “Analyze>>Measure”         |
+|                            |             | will measure all points drawn on the image.          |
++----------------------------+-------------+------------------------------------------------------+
+| |icon-line.png|            | line        | Click and drag between two points to draw a          |
+|                            |             | line. You can only have one line drawn on the        |
+|                            |             | image at a time. Select “Edit>>Adjust>>Line Width”   |
+|                            |             | to change the width of the line.                     |
++----------------------------+-------------+------------------------------------------------------+
+| |icon-rect.png|            | rectangle   | Click and drag between two points to draw a          |
+|                            |             | rectangle. You can not use “Analyze>>Measure” on     |
+|                            |             | rectangles. Rectangles are primarily used to crop    |
+|                            |             | images.                                              |
++----------------------------+-------------+------------------------------------------------------+
 
 Menu Commands
 -------------
