@@ -20,7 +20,7 @@ How to Install
 1. Download the zip folder titled "emissivityprog.zip".
 2. Extract the files from the zip folder by right-clicking on the folder and selecting "Extract All".
 
-.. NOTE:: Do not move any files or subfolders out of the folder. Doing so will ruin the application and make it unable to run properly. Creating a shortcut to the application itself should still work.
+.. NOTE:: **Do not move any files or subfolders out of the folder. Doing so will ruin the application and make it unable to run properly. Creating a shortcut to the application itself should still work.**
 
 Required Dependencies for Your System
 -------------------------------------
@@ -60,25 +60,6 @@ The following details how to use each tool and command in the application.
 Tools
 -----
 
-+-----------------------------+-------------+------------------------------------------------------+
-| Icon                        | Tool        | Description                                          |
-+=============================+=============+======================================================+
-| |P|                         | point       | Click on a point in the image to draw a point.       |
-|                             |             | You can have multiple points drawn on the image      |
-|                             |             | simultaneously. Selecting “Analyze>>Measure”         |
-|                             |             | will measure all points drawn on the image.          |
-+-----------------------------+-------------+------------------------------------------------------+
-| |L|                         | line        | Click and drag between two points to draw a          |
-|                             |             | line. You can only have one line drawn on the        |
-|                             |             | image at a time. Select “Edit>>Adjust>>Line Width”   |
-|                             |             | to change the width of the line.                     |
-+-----------------------------+-------------+------------------------------------------------------+
-| |R|                         | rectangle   | Click and drag between two points to draw a          |
-|                             |             | rectangle. You can not use “Analyze>>Measure” on     |
-|                             |             | rectangles. Rectangles are primarily used to crop    |
-|                             |             | images.                                              |
-+--------------------------------------------------------------------------------------------------+
-
 .. |P| image:: icon-point.png
    :height: 100px
    :width: 100px
@@ -93,6 +74,25 @@ Tools
    :height: 100px
    :width: 100px
    :align: center
+
++-------+-------------+------------------------------------------------------+
+| Icon  | Tool        | Description                                          |
++=======+=============+======================================================+
+| |P|   | point       | Click on a point in the image to draw a point.       |
+|       |             | You can have multiple points drawn on the image      |
+|       |             | simultaneously. Selecting “Analyze>>Measure”         |
+|       |             | will measure all points drawn on the image.          |
++-------+-------------+------------------------------------------------------+
+| |L|   | line        | Click and drag between two points to draw a          |
+|       |             | line. You can only have one line drawn on the        |
+|       |             | image at a time. Select “Edit>>Adjust>>Line Width”   |
+|       |             | to change the width of the line.                     |
++-------+-------------+------------------------------------------------------+
+| |R|   | rectangle   | Click and drag between two points to draw a          |
+|       |             | rectangle. You can not use “Analyze>>Measure” on     |
+|       |             | rectangles. Rectangles are primarily used to crop    |
+|       |             | images.                                              |
++-------+-------------+------------------------------------------------------+
 
 Menu Commands
 -------------
@@ -146,13 +146,13 @@ Menu Commands
 	   * - Command
 	     - Operation
 	   * - Crop
-	     - Crops the image to a rectangle drawn on the canvas. |Note|
+	     - Crops the image to a rectangle drawn on the canvas. #
 	   * - Set Scale
-	     - Sets the scale of the image to a certain measurement and unit defined by the user. The user can draw a line 	       on a section of the image and set the scale of the image using that line.
+	     - Sets the scale of the image to a certain measurement and unit defined by the user. The user can draw a line on a section of the image and set the scale of the image using that line.
 	   * - Rotate
 	     - Disabled.
 
-	.. |Note| NOTE:: A rectangle must be drawn on the canvas for this to work.
+.. [1] A rectangle must be drawn on the canvas for this to work.
 
 	.. list-table:: Analyze Menu Commands
 	   :widths: auto
@@ -161,15 +161,15 @@ Menu Commands
 	   * - Command
 	     - Operation
 	   * - Measure
-	     - Displays the pixel coordinates, mean, min, and max pixel intensities, and other relevant information about 	       the image at a drawn element's location. All data are displayed in a table that can be exported as a CSV.
+	     - Displays the pixel coordinates, mean, min, and max pixel intensities, and other relevant information about the image at a drawn element's location. All data are displayed in a table that can be exported as a CSV.
 	   * - Automatic (Computer Generated) Profile
-	     - Identifies the bright spots in the image, and plots the intensity profiles along each row and column of 	       spots. This plot can be manipulated and exported.
+	     - Identifies the bright spots in the image, and plots the intensity profiles along each row and column of spots. This plot can be manipulated and exported.
 	   * - Manual Profile
-	     - Plots the intensity profile of the image along a line drawn on the canvas. If no line is drawn, the profile 	       of the entire image is plotted. This plot can be manipulated and exported.
+	     - Plots the intensity profile of the image along a line drawn on the canvas. If no line is drawn, the profile of the entire image is plotted. This plot can be manipulated and exported.
 	   * - Generate Voronoi Diagram
-	     - Generates a Voronoi diagram of the image. For the best results, crop the image so that only the bright spots 	       are visible.
+	     - Generates a Voronoi diagram of the image. For the best results, crop the image so that only the bright spots are visible.
 
-	.. NOTE:: The "Help" menu currently has no use.
+.. NOTE:: The "Help" menu currently has no use.
 
 Plot Commands
 -------------
@@ -193,7 +193,7 @@ Plot Commands
 	   * - Export As...
 	     - Export the data as a CSV or text file.
 	   * - Table
-	     - Displays the data in a table. |Note2|
+	     - Displays the data in a table. #
 	   * - Add Baseline
 	     - Generates a baseline from the data.
 	   * - Clear Baseline
@@ -201,7 +201,7 @@ Plot Commands
 	   * - Subtract Baseline
 	     - Subtracts the baseline from the data.
 
-	.. |Note2| NOTE:: Table currently can't be scrolled through.
+.. [2] Table currently can't be scrolled through.
 
 	.. list-table:: Fit Menu Commands
 	   :widths: auto
@@ -210,7 +210,7 @@ Plot Commands
 	   * - Command
 	     - Operation
 	   * - Guess Peak
-	     - Generates Gaussian fits for each apparent peak in the data, and then fits the entire dataset using 	       a Levenberg-Marquardt algorithm.
+	     - Generates Gaussian fits for each apparent peak in the data, and then fits the entire dataset using a Levenberg-Marquardt algorithm.
 	   * - Export Peak Parameters
 	     - Exports the parameters of each peak as a CSV or text file.
 
